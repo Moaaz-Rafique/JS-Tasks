@@ -574,17 +574,59 @@ for(var i=10;i<0;i--){
     document.write(i+", ")
 }
 
-document.write("<br>Even")
-for(var i=0;i<20;i++){
-    document.write(i+", ")
-}
 
-document.write("<br>")
-for(var i=1;i<20;i++){
+document.write("<br>Even")
+for(var i=0;i<20;i+=2){
     document.write(i+", ")
 }
 
 document.write("<br>Odd")
+for(var i=1;i<20;i+=2){
+    document.write(i+", ")
+}
+
+document.write("<br>Series")
 for(var i=0;i<20;i++){
     document.write(i+"K, ")
 }
+
+var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+var a = prompt("Welcome to Abc bakery what do you want to order?","cookie")
+var found=false
+var i=0;
+for(i=0;i<A.length;i++){
+    if(A[i]=="a"){
+        found=true
+        break;
+    }
+}
+if(found){
+    alert(A[i]+ " is at index "+i+" in our bakery")
+}
+else{
+    alert("we are sorry "+a+" is not available in our bakery")
+}
+
+var A = [24, 53, 78, 91, 12];
+var min=A[0]
+for(var i =0;i<A.length;i++){
+    if(i<min){
+        min=A[i]
+    }
+}
+alert("Minimum value is "+min)
+
+var A = [24, 53, 78, 91, 12];
+var max=A[0]
+for(var i =0;i<A.length;i++){
+    if(i<max){
+        max=A[i]
+    }
+}
+alert("maximum value is "+max)
+document.write("<br>Multiples of 5 <br>")
+for(var i=5;i<20;i+=2){
+    document.write(i+", ")
+}
+
+
