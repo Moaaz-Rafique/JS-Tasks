@@ -1,3 +1,22 @@
+//Assignment 1
+//task 1
+alert("Welcome to my website hope you are doing well \nThank You");
+
+//task 2
+alert("Error! Please enter valid password.");
+
+//task 3
+alert ("Welcome to JS Land \nHappy Coding!");
+
+//task 4
+alert("Welcome to JS Land...");
+alert("Prevent this page from creating additional dialogs.");
+
+
+//task 5
+alert("hello i can run JS through my web browser's console");
+
+///Assignment 2
 /*var username;
 
 var myName="Moaaz Rafique"
@@ -28,7 +47,7 @@ document.writeln("yah! I can write HTML content through Javascript")
 var design="▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬"
 alert(design)*/
 
-
+//Assignment 3
 /*var age = 15
 
 alert("I am "+age+" years old")
@@ -44,7 +63,7 @@ var prod= prompt("What did you buy","Product Name")
 
 document.write(nam + " ordered " + prod+ "(s) on XYZ CLothing store")
 */
-
+//Assignment 4
 /*var a,b,c;
 
 var a,_a,$a,a1,A;
@@ -90,7 +109,7 @@ var f=70
 document.write("<br><br> "+c+"<sup>o</sup>C is "+(c*9/5+32)+"<sup>o</sup>F")
 document.write("<br> "+f+"<sup>o</sup>F is "+((f-32)*5/9)+"<sup>o</sup>C")
 
-
+//Assignment 5
 
 var p1=650
 var q1=3
